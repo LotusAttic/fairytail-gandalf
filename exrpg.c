@@ -1,5 +1,5 @@
 /***************************************************************************
- *   exN.c                                    Version 20170925.225414      *
+ *   exrpg.c                                  Version 20170928.233341      *
  *                                                                         *
  *   Fairytail                                                             *
  *   Copyright (C) 2017         by Daidson Fonseca Alves                   *
@@ -27,12 +27,12 @@
 
 /* ---------------------------------------------------------------------- */
 /**
- * @file exN.c
+ * @file exrpg.c
  * @ingroup GroupUnique
  * @brief Fairytail
  * @details This program really do a nice job as a template, and template only!
- * @version 20170925.225414
- * @date 2017-09-25
+ * @version 20170928.233341
+ * @date 2017-09-28
  * @author Daidson Fonseca Alves <<daidson.alves@gmail.com>>
  * @par Webpage
  * <<a href="http://www.github.com/daidson">www.github.com/daidson</a>>
@@ -60,7 +60,7 @@
 
 /*
  * Instrucoes para compilar:
- *   $gcc exN.c -o exN.x -Wall
+ *   $gcc exrpg.c -o exrpg.x -Wall
  *        -Wextra -ansi -pedantic-errors -g -O0 -DDEBUG=1
  */
 
@@ -74,13 +74,13 @@
 /* #include <math.h> */ /* Mathematics functions */
 /* #include <string.h> */ /* Strings functions definitions */
 /* #include "libeco.h" */ /* I/O, Math, Sound, Color, Portable Linux/Windows */
-/* #include "exN.h" */ /* To be created for this template if needed */
+/* #include "exrpg.h" */ /* To be created for this template if needed */
 
 /* ---------------------------------------------------------------------- */
 /* definitions */
 
 #ifndef VERSION /* gcc -DVERSION="0.1.160612.142306" */
-#define VERSION "20170925.225414" /**< Version Number (string) */
+#define VERSION "20170928.233341" /**< Version Number (string) */
 #endif
 
 /* Debug */
@@ -127,8 +127,8 @@ void copyr(void); /* print version and copyright information */
  * @todo Need to do...
  * @note You can read more about it at <<a href="http://www.github.com/daidson">www.github.com/daidson</a>>
  * @author Daidson Fonseca Alves
- * @version 20170925.225414
- * @date 2017-09-25
+ * @version 20170928.233341
+ * @date 2017-09-28
  *
  */
 
@@ -161,15 +161,15 @@ int main(void)
  * @details Prints help information (usually called by opt -h)
  * @return Void
  * @author Daidson Fonseca Alves
- * @version 20170925.225414
- * @date 2017-09-25
+ * @version 20170928.233341
+ * @date 2017-09-28
  *
  */
 void help(void)
 {
     IFDEBUG("help()");
-    printf("%s - %s\n", "exN", "Fairytail");
-    printf("\nUsage: %s\n\n", "exN");
+    printf("%s - %s\n", "exrpg", "Fairytail");
+    printf("\nUsage: %s\n\n", "exrpg");
     printf("This program does...\n");
     /* add more stuff here */
     printf("\nExit status:\n\t0 if ok.\n\t1 some error occurred.\n");
@@ -185,14 +185,14 @@ void help(void)
  * @details Prints version and copyright information (usually called by opt -V)
  * @return Void
  * @author Daidson Fonseca Alves
- * @version 20170925.225414
- * @date 2017-09-25
+ * @version 20170928.233341
+ * @date 2017-09-28
  *
  */
 void copyr(void)
 {
     IFDEBUG("copyr()");
-    printf("%s - Version %s\n", "exN", VERSION);
+    printf("%s - Version %s\n", "exrpg", VERSION);
     printf("\nCopyright (C) %d %s <%s>, GNU GPL version 2 <http://gnu.org/licenses/gpl.html>. This  is  free  software: you are free to change and redistribute it. There is NO WARRANTY, to the extent permitted by law. USE IT AS IT IS. The author takes no responsability to any damage this software may inflige in your data.\n\n", 2017, "Daidson Fonseca Alves", "daidson.alves@gmail.com");
     return;
 }
