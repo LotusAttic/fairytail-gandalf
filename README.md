@@ -13,13 +13,20 @@
 
 ### História
 
-* Colocar aqui base da história
+As forças sombrias chegaram ao reino de Dalmasca, vindas do sul, com poder inigualável, nada pode dete-la.
+Você não é um aventureiro, mas a sombra vem ao seu encontro, é hora de pegar armas e lutar, e conquistar devolta os gloriosos dias da humainidade.
 * Explicação do desenvolvimento das condicionais
 
 ### Exemplos 
 
-* Colocar o que ocorrerá na história
-* Casos de uso
+* Voce esta' na taverna. Um orc te ataca.
+  Voce pode lutar ou fugir.
+
+* fugir.
+
+* Voce foge para fora da taverna. Aqui ha' dois orcs.
+
+* lutar.
 
 ### Orientação
 
