@@ -19,12 +19,13 @@ Você não é um aventureiro, mas a sombra vem ao seu encontro, é hora de pegar
 
 ### Exemplos 
 
-* Voce esta' na taverna. Um orc te ataca.
+* Voce esta' na taverna. Um orc te ataca.  
   Voce pode lutar ou fugir.
 
 * fugir.
 
-* Voce foge para fora da taverna. Aqui ha' dois orcs.
+* Voce foge para fora da taverna. Aqui ha' dois orcs.  
+  Voce pode lutar ou fugir.
 
 * lutar.
 
